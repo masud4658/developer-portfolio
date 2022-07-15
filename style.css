@@ -1,6 +1,12 @@
 body {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section {
+    height: 590px;
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -11,8 +17,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+
 }
 
 .half-width {
@@ -48,6 +55,37 @@ section {
 
 }
 
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 #padding-right {
     padding-right: 100px;
+}
+
+.experiences-iteam {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
